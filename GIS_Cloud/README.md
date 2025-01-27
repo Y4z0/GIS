@@ -1,6 +1,5 @@
 Izvorni projekt https://github.com/mzazon/php-apache-mysql-containerized
 
-
 Upravljanje okruženjem vrši se putem manage.sh skripte.
 Za inicijalno pokretanje servisa potrebno je pokrenuti unutar GIS_Cloud foldera sljedeću komandu:
 
@@ -15,4 +14,11 @@ Pokretanje zaustavljenih servisa vrši se sa:
 Pregled statusa servisa:
 ./manage.sh status
 
-Web pristup 
+Pristup web serveru: http://localhost/
+Kada svi servisi rade prikazana je sljedeća poruka:
+
+---
+Hello World!
+Attempting MySQL connection from php...
+Sve radi!
+---
